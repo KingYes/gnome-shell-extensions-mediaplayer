@@ -1,38 +1,53 @@
-.button-container {
-    padding-right: 5px;
+.controls {
+    spacing: 5px;
+}
+
+.indicator-icon {
+    padding-right: 0px;
+}
+
+.status-icon {
+    icon-size: 10px;
+    padding-bottom: 0.4em;
+}
+
+.track-box {
+    padding-left: 2em;
 }
 
 .track-cover {
-    border: 2px solid rgba(255,255,255,0.8);
+    border: 2px solid rgba(255, 255, 255, 0.8);
     border-radius: 2px;
 }
 
-.track-infos {
+.track-infos:ltr {
+    padding-left: 1em;
     width: 15em;
-    padding-left: 7px;
+}
+
+.track-infos:rtl {
+    padding-left: 1em;
+    width: 15em;
 }
 
 .track-title {
-    padding: 0;
     font-weight: bold;
     font-size: 1.1em;
 }
 
 .track-artist {
-    padding-top: 2px;
+    padding-top: 0.2em;
     font-size: 0.9em;
 }
 
 .track-album {
-    padding-top: 2px;
+    padding-top: 0.2em;
     font-size: 0.9em;
 }
 
-.track-box {
-    padding-top: 10px;
-    padding-left: 30px;
-    padding-right: 15px;
-    padding-bottom: 5px;
+.track-rating {
+    padding-top: 0.15em;
+    font-size: 0.9em;
 }
 
 .menu-icon {
@@ -41,12 +56,20 @@
 }
 
 .slider-item StLabel {
-    width: 6em;
     font-size: 0.9em;
+    width: 9em;
 }
 
-.playback-control {
-    width: 26em;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.title-button {
+    padding: 3px;
+    border-radius: 12px;
+}
+
+.title-button:hover {
+    background: #999;
+    padding: 4px;
+}
+
+.control-button:disabled {
+    color: #999;
 }
